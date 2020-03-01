@@ -35,7 +35,7 @@ int minCost(int grid[][100], int m ,int n){
 // int minCost(int grid[][100], int m, int n){
 
 //     if(m < 0 || n < 0){
-//         return INT32_MAX;
+//         return int32_MAX;
 //     }
 //     if(m == 0 && n == 0){
 //         return grid[m][n];
@@ -57,7 +57,7 @@ int minCost(int grid[][100], int m ,int n){
 // int minCost(int grid[][100], int m, int n){
 
 //     if(m < 0 || n < 0){
-//         return INT32_MAX;
+//         return int32_MAX;
 //     }
 
 //     if(m == 0 && n == 0){

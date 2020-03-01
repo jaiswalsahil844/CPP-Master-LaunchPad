@@ -11,7 +11,7 @@ int lis(int *arr, int n){
     // base case
     fill(dp, dp + n, 1);
     
-    int best = INT32_MIN;
+    int best = int32_MIN;
     for(int i=1; i<n; i++){
         for(int j=0; j<i; j++){
 

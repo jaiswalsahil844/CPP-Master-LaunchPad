@@ -2,7 +2,7 @@
 #include <algorithm>
 using namespace std;
 
-const int inf = (int)1e9; // use instead of INT32_MAX
+const int inf = (int)1e9; // use instead of int32_MAX
 int memo[10000];
 
 // purely Dp
@@ -46,7 +46,7 @@ int reduceNum(int n){
 //         return memo[n]; // bcz this has already computed! No recomputation
 //     }
     
-//     int q1 = INT32_MAX, q2 = INT32_MAX, q3 = INT32_MAX;
+//     int q1 = int32_MAX, q2 = int32_MAX, q3 = int32_MAX;
 //     if(n%3 == 0){
 //         q1 = 1 + reduceNum(n/3);
 //     } 
